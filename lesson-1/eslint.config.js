@@ -5,21 +5,27 @@ import jsxA11y from "eslint-plugin-jsx-a11y";
 import importPlugin from "eslint-plugin-import";
 import boundaries from "eslint-plugin-boundaries";
 import tsParser from "@typescript-eslint/parser";
+import tseslint from "typescript-eslint";
 import prettier from "eslint-config-prettier";
+import globals from "globals";
 
 export default [
+  { ignores: ["dist/**", "node_modules/**", "eslint.config.js"] },
+
   js.configs.recommended,
   prettier,
 
   {
-    files: ["**/*.{js,jsx,ts,tsx}"],
+    files: ["src/**/*.{js,jsx,ts,tsx}"],
 
     languageOptions: {
       parser: tsParser,
       ecmaVersion: 2020,
       sourceType: "module",
+      globals: { ...globals.browser },
       parserOptions: {
-        project: "./tsconfig.json",
+        project: ["./tsconfig.app.json"],
+        tsconfigRootDir: import.meta.dirname,
       },
     },
 
@@ -29,11 +35,19 @@ export default [
       "jsx-a11y": jsxA11y,
       import: importPlugin,
       boundaries,
+      "@typescript-eslint": tseslint.plugin,
     },
 
     settings: {
       react: {
         version: "detect",
+      },
+
+      "import/resolver": {
+        node: {
+          extensions: [".js", ".jsx", ".ts", ".tsx"],
+          moduleDirectory: ["node_modules", "src"],
+        },
       },
 
       "boundaries/elements": [
@@ -52,11 +66,21 @@ export default [
       ...jsxA11y.configs.recommended.rules,
       ...importPlugin.configs.recommended.rules,
 
-      "boundaries/element-types": [
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off",
+
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+      ],
+
+      "boundaries/dependencies": [
         "error",
         {
           default: "disallow",
           rules: [
+            { from: "app", allow: ["shared", "entities", "features", "widgets", "pages"] },
             { from: "features", allow: ["shared", "entities"] },
             { from: "entities", allow: ["shared"] },
             { from: "widgets", allow: ["shared", "features", "entities"] },
@@ -64,6 +88,21 @@ export default [
           ],
         },
       ],
+    },
+  },
+
+  {
+    files: ["vite.config.ts"],
+
+    languageOptions: {
+      parser: tsParser,
+      ecmaVersion: 2020,
+      sourceType: "module",
+      globals: { ...globals.node },
+      parserOptions: {
+        project: ["./tsconfig.node.json"],
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
   },
 ];
