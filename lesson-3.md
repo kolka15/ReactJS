@@ -30,6 +30,6 @@ npm run dev
 
 ### Дополнительная задача (3 бонусных балла)
 
-- [x] Есть скриншот работы с Profiler — 1 балл
-- [x] Есть комментарии к скриншоту с пояснениями — 1 балл.
-- [x] Есть анализ 2+ компонентов — 1 балл.
+- [x] baseApi создан и экспортирован из shared/api/baseApi.ts (или shares/...), tagTypes включает Tasks — 1 балл.
+- [x] tasksApi использует injectEndpoints от baseApi; getTasks корректно возвращает Task[] — 1 балл.
+- [x] в store подключены baseApi.reducer и baseApi.middleware один раз — 1 балл.
