@@ -9,6 +9,7 @@ export interface UseTasksResult {
   filter: Filter
   setFilter: (filter: Filter) => void
   removeTask: (id: string) => void
+  toggleTask: (id: string) => void
 }
 
 const defaultTasks: Task[] = [
@@ -42,5 +43,9 @@ export const useTasks = (initial: Task[] = defaultTasks): UseTasksResult => {
     setSources((current) => current.filter((task) => task.id !== id))
   }, [])
 
-  return { tasks, filter, setFilter, removeTask }
+  const toggleTask = useCallback((id: string) => {
+    setSources((current) => current.map((task) => (task.id === id ? { ...task, completed: !task.completed } : task)))
+  }, [])
+
+  return { tasks, filter, setFilter, removeTask, toggleTask }
 }
