@@ -17,9 +17,10 @@ export interface TaskListProps {
   filter: Filter
   onFilterChange: (filter: Filter) => void
   onRemove: (id: string) => void
+  onToggle: (id: string) => void
 }
 
-export const TaskList = ({ tasks, filter, onFilterChange, onRemove }: TaskListProps) => (
+export const TaskList = ({ tasks, filter, onFilterChange, onRemove, onToggle }: TaskListProps) => (
   <>
     <div className={styles.bar} role="group" aria-label="Фильтр задач по статусу">
       {FILTERS.map((option) => (
@@ -40,19 +41,7 @@ export const TaskList = ({ tasks, filter, onFilterChange, onRemove }: TaskListPr
       <ul className={styles.list}>
         {tasks.map((task) => (
           <li key={task.id}>
-            <TaskCard
-              task={task}
-              action={
-                <button
-                  type="button"
-                  className={styles.remove}
-                  aria-label={`Удалить задачу «${task.title}»`}
-                  onClick={() => onRemove(task.id)}
-                >
-                  ✕
-                </button>
-              }
-            />
+            <TaskCard task={task} onToggle={onToggle} onRemove={onRemove} />
           </li>
         ))}
       </ul>
