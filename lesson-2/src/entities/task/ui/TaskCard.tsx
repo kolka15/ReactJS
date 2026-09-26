@@ -41,3 +41,5 @@ export const TaskCard = React.memo(({ task, onToggle, onRemove }: TaskCardProps)
         </article>
     )
 })
+
+TaskCard.displayName = 'TaskCard'

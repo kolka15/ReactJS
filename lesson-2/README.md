@@ -1,75 +1,78 @@
-# React + TypeScript + Vite
+# Мои задачи
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект курса React: страница со списком задач
 
-Currently, two official plugins are available:
+Ветка этого этапа: `lesson-2` — оптимизация производительности.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Технологии
 
-## React Compiler
+- React 19 + TypeScript
+- Vite 8 
+- React Router 7
+- CSS Modules
+- ESLint 9
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Требования
 
-## Expanding the ESLint configuration
+Node.js 22 или выше
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Запуск
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm ci
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Приложение будет доступно на `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Скрипты
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Команда           | Назначение                                |
+| ----------------- | ----------------------------------------- |
+| `npm run dev`     | dev-сервер с HMR                          |
+| `npm run build`   | проверка типов (`tsc -b`) и продакшен-сборка |
+| `npm run lint`    | ESLint                                    |
+| `npm run preview` | просмотр собранной версии                 |
 
+## Структура
+
+Проект разложен по [Feature-Sliced Design](https://feature-sliced.design):
+
+```text
+src/
+├── app/        App, router — маршруты «/» и 404
+├── pages/      tasks — страница «Мои задачи», not-found
+├── widgets/    task — TaskWidget, связывает состояние со списком
+├── features/   taskList — хук useTasks (стейт, фильтр, операции) и TaskList
+├── entities/   task — тип Task и презентационный TaskCard
+└── shared/     ui/FilterButton
 ```
+
+Импорты между слайсами — абсолютными путями (`entities/task/ui/TaskCard.tsx`), соответствие слоёв следит правило `boundaries/dependencies` в `eslint.config.js`:
+
+```text
+app      → pages, widgets, features, entities, shared
+pages    → widgets, features, entities, shared
+widgets  → features, entities, shared
+features → entities, shared
+entities → shared
+shared   → (никуда)
+```
+
+## Анализ производительности через DevTools
+
+![Screenshot.png](public/screenshot.png)
+
+Запишем сессию с удалением карточки.
+Строчка справа `What caused this update? TaskWidget` говорит нам, что состояние живёт в
+useTasks(), а вызывается этот хук внутри TaskWidget, поэтому React начал
+работу с TaskWidget, всё, что выше него, в этот коммит не рендерилось.
+
+На нижней строке 4 серых прямоугольника TaskCard по числу карточек. Серый цвет со штриховкой говорит о том, 
+что они не ререндерелись, потому что мемоизированы.
+
+### Задел на будущее
+
+Видно, что после мемоизации карточек узкое место сместилось на TaskList (пересоздание элементов всей длины списка). 
+Это нормальное поведение для 5 задач; масштабироваться 
+оно начнёт на длинных списках и лечится либо мемоизированной обёрткой списка, либо React Compiler.
