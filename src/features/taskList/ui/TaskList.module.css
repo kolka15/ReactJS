@@ -12,15 +12,6 @@
   list-style: none;
 }
 
-.remove {
-  border: 0;
-  background: none;
-  color: #b53722;
-  font-size: 14px;
-  line-height: 1;
-  cursor: pointer;
-}
-
 .empty {
   margin: 16px 0 0;
   color: #78716c;

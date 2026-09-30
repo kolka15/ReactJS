@@ -21,6 +21,28 @@
   white-space: nowrap;
 }
 
+.toggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.toggle:hover {
+  color: #1c1917;
+  text-decoration: underline;
+}
+
+.remove {
+  border: 0;
+  background: none;
+  color: #b53722;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .done .title {
   color: #78716c;
   text-decoration: line-through;
