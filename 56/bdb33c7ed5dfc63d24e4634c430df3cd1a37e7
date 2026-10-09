@@ -1,0 +1,16 @@
+src/app/router.tsx
+  h_0d409f2aa20f9a 4,10-11
+src/pages/register/ui/RegisterPage.tsx
+  h_0d409f2aa20f9a 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "56bdb33c7ed5dfc63d24e4634c430df3cd1a37e7",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
