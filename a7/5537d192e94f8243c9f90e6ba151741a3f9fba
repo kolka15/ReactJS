@@ -1,0 +1,26 @@
+lesson-4.md
+  h_0d409f2aa20f9a 1-18
+package-lock.json
+  h_0d409f2aa20f9a 14,4462-4483
+package.json
+  h_0d409f2aa20f9a 16
+src/features/register/model/types.ts
+  h_0d409f2aa20f9a 1-6
+src/features/register/ui/RegisterForm.module.css
+  h_0d409f2aa20f9a 1-55
+src/features/register/ui/RegisterForm.tsx
+  h_0d409f2aa20f9a 1-135
+src/pages/register/ui/RegisterPage.tsx
+  h_0d409f2aa20f9a 1-2,6-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "a75537d192e94f8243c9f90e6ba151741a3f9fba",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
