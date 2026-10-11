@@ -1,0 +1,18 @@
+lesson-5.md
+  h_0d409f2aa20f9a 33-39
+src/features/refExamples/DebouncedLogger.tsx
+  h_0d409f2aa20f9a 1-42
+src/pages/ref-examples/ui/RefExamplesPage.tsx
+  h_0d409f2aa20f9a 4,17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "5310c6605b47e605199319b5d67e0f4bd979d745",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
