@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import { useForm } from 'react-hook-form'
+import { useFieldArray, useForm } from 'react-hook-form'
+import { zodResolver } from '@hookform/resolvers/zod'
 
+import { registerFormSchema } from '../model/schema.ts'
 import type { RegisterFormValues } from '../model/types.ts'
 
 import styles from './RegisterForm.module.css'
-
-const EMAIL_PATTERN = /^[^@\s]+@[^@\s]+$/
 
 export const RegisterForm = () => {
   const [registeredUsername, setRegisteredUsername] = useState<string | null>(null)
@@ -14,15 +14,23 @@ export const RegisterForm = () => {
     register,
     handleSubmit,
     reset,
+    control,
     formState: { errors },
   } = useForm<RegisterFormValues>({
     mode: 'onTouched',
+    resolver: zodResolver(registerFormSchema),
     defaultValues: {
       username: '',
       email: '',
       password: '',
       confirmPassword: '',
+      links: [{ url: '' }],
     },
+  })
+
+  const { fields, append, remove } = useFieldArray({
+    control,
+    name: 'links',
   })
 
   const onSubmit = ({ username }: RegisterFormValues) => {
@@ -42,7 +50,7 @@ export const RegisterForm = () => {
           autoComplete="username"
           aria-invalid={errors.username ? 'true' : 'false'}
           aria-describedby={errors.username ? 'username-error' : undefined}
-          {...register('username', { required: 'Укажите имя пользователя' })}
+          {...register('username')}
         />
         {errors.username && (
           <p id="username-error" className={styles.error}>
@@ -62,10 +70,7 @@ export const RegisterForm = () => {
           autoComplete="email"
           aria-invalid={errors.email ? 'true' : 'false'}
           aria-describedby={errors.email ? 'email-error' : undefined}
-          {...register('email', {
-            required: 'Укажите email',
-            pattern: { value: EMAIL_PATTERN, message: 'Email должен содержать @' },
-          })}
+          {...register('email')}
         />
         {errors.email && (
           <p id="email-error" className={styles.error}>
@@ -85,10 +90,7 @@ export const RegisterForm = () => {
           autoComplete="new-password"
           aria-invalid={errors.password ? 'true' : 'false'}
           aria-describedby={errors.password ? 'password-error' : undefined}
-          {...register('password', {
-            required: 'Укажите пароль',
-            minLength: { value: 6, message: 'Пароль должен быть не короче 6 символов' },
-          })}
+          {...register('password')}
         />
         {errors.password && (
           <p id="password-error" className={styles.error}>
@@ -108,17 +110,48 @@ export const RegisterForm = () => {
           autoComplete="new-password"
           aria-invalid={errors.confirmPassword ? 'true' : 'false'}
           aria-describedby={errors.confirmPassword ? 'confirmPassword-error' : undefined}
-          {...register('confirmPassword', {
-            required: 'Повторите пароль',
-            deps: ['password'],
-            validate: (value, values) => value === values.password || 'Пароли не совпадают',
-          })}
+          {...register('confirmPassword')}
         />
         {errors.confirmPassword && (
           <p id="confirmPassword-error" className={styles.error}>
             {errors.confirmPassword.message}
           </p>
         )}
+      </div>
+
+      <div className={styles.links}>
+        <span className={styles.legend}>Социальные ссылки</span>
+
+        {fields.map((field, index) => (
+          <div className={styles.linkRow} key={field.id}>
+            <label className={styles.label} htmlFor={`link-${index}`}>
+              Ссылка {index + 1}
+            </label>
+            <div className={styles.linkControls}>
+              <input
+                id={`link-${index}`}
+                className={styles.input}
+                type="url"
+                placeholder="https://github.com/username"
+                aria-invalid={errors.links?.[index]?.url ? 'true' : 'false'}
+                aria-describedby={errors.links?.[index]?.url ? `link-${index}-error` : undefined}
+                {...register(`links.${index}.url` as const)}
+              />
+              <button className={styles.remove} type="button" onClick={() => remove(index)}>
+                Удалить
+              </button>
+            </div>
+            {errors.links?.[index]?.url && (
+              <p id={`link-${index}-error`} className={styles.error}>
+                {errors.links[index]?.url?.message}
+              </p>
+            )}
+          </div>
+        ))}
+
+        <button className={styles.add} type="button" onClick={() => append({ url: '' })}>
+          Добавить ссылку
+        </button>
       </div>
 
       <button className={styles.submit} type="submit">
