@@ -1,0 +1,30 @@
+lesson-4.md
+  h_0d409f2aa20f9a 33-38
+src/app/router.tsx
+  h_0d409f2aa20f9a 5,12
+src/features/subscribe/model/action.ts
+  h_0d409f2aa20f9a 1-40
+src/features/subscribe/model/schema.ts
+  h_0d409f2aa20f9a 1-10
+src/features/subscribe/model/types.ts
+  h_0d409f2aa20f9a 1-7
+src/features/subscribe/ui/SubscribeWizard.module.css
+  h_0d409f2aa20f9a 1-95
+src/features/subscribe/ui/SubscribeWizard.tsx
+  h_0d409f2aa20f9a 1-114
+src/pages/register/ui/RegisterPage.tsx
+  h_0d409f2aa20f9a 1-2,8-10
+src/pages/subscribe/ui/SubscribePage.tsx
+  h_0d409f2aa20f9a 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "3f2b7986d3195ada136dded40408d67798b5a6a9",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
