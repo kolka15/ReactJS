@@ -1,0 +1,28 @@
+lesson-5.md
+  h_0d409f2aa20f9a 1-35
+src/app/router.tsx
+  h_0d409f2aa20f9a 8,18
+src/features/refExamples/ClickTimer.tsx
+  h_0d409f2aa20f9a 1-44
+src/features/refExamples/FocusTracker.tsx
+  h_0d409f2aa20f9a 1-60
+src/features/refExamples/PreviousInput.tsx
+  h_0d409f2aa20f9a 1-32
+src/pages/home/ui/HomePage.tsx
+  h_0d409f2aa20f9a 13-14
+src/pages/ref-examples/ui/RefExamplesPage.tsx
+  h_0d409f2aa20f9a 1-17
+src/shared/config/routes.ts
+  h_0d409f2aa20f9a 6,44,49-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "bcf8fe6f4ffcc53b2e745cd977f467565e3b5b23",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
