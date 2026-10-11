@@ -4,6 +4,7 @@ import { ClickTimer } from 'features/refExamples/ClickTimer.tsx'
 import { DebouncedLogger } from 'features/refExamples/DebouncedLogger.tsx'
 import { FocusTracker } from 'features/refExamples/FocusTracker.tsx'
 import { PreviousInput } from 'features/refExamples/PreviousInput.tsx'
+import { WebSocketLogger } from 'features/refExamples/WebSocketLogger.tsx'
 import { ROUTES } from 'shared/config/routes.ts'
 
 export const RefExamplesPage = () => (
@@ -15,5 +16,6 @@ export const RefExamplesPage = () => (
     <PreviousInput />
     <FocusTracker />
     <DebouncedLogger />
+    <WebSocketLogger />
   </main>
 )
