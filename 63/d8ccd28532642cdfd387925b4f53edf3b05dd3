@@ -1,0 +1,47 @@
+src/features/subscribe/ui/SubscribeWizard.tsx
+  h_0d409f2aa20f9a 1-114
+src/features/subscribe/model/schema.ts
+  h_0d409f2aa20f9a 1-10
+src/pages/subscribe/ui/SubscribePage.tsx
+  h_0d409f2aa20f9a 1-15
+src/app/router.tsx
+  h_0d409f2aa20f9a 3,6,12,14-15
+src/pages/home/ui/HomePage.module.css
+  h_0d409f2aa20f9a 1-112
+src/features/subscribe/model/action.ts
+  h_0d409f2aa20f9a 1-40
+src/features/subscribe/ui/SubscribeWizard.module.css
+  h_0d409f2aa20f9a 1-95
+src/pages/register/ui/RegisterPage.tsx
+  h_0d409f2aa20f9a 1-2,8-10
+lesson-4.md
+  h_0d409f2aa20f9a 33-38
+  h_0d409f2aa20f9a 2,8,21-32
+src/features/subscribe/model/types.ts
+  h_0d409f2aa20f9a 1-7
+src/pages/home/ui/HomePage.tsx
+  h_0d409f2aa20f9a 1-71
+package-lock.json
+  h_0d409f2aa20f9a 11,17-18,455-564,1033,1908
+package.json
+  h_0d409f2aa20f9a 13,19-20
+src/features/register/model/schema.ts
+  h_0d409f2aa20f9a 1-22
+src/features/register/model/types.ts
+  h_0d409f2aa20f9a 1-4,10
+src/features/register/ui/RegisterForm.module.css
+  h_0d409f2aa20f9a 39-85
+src/features/register/ui/RegisterForm.tsx
+  h_0d409f2aa20f9a 2-3,5,17,21,27,31-35,53,73,93,113,122-156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "63d8ccd28532642cdfd387925b4f53edf3b05dd3",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
