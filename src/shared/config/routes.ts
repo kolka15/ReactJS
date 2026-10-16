@@ -3,6 +3,7 @@ export const ROUTES = {
   tasks: '/taskpage',
   register: '/register',
   subscribe: '/subscribe',
+  refExamples: '/ref-examples',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -40,9 +41,15 @@ export const LESSON_LINKS: LessonLink[] = [
     to: 'register',
   },
   {
-    code: 'Lesson 04 +2',
+    code: 'Lesson 04 bonus',
     title: 'Бонус: wizard на useActionState',
     summary: 'Два шага, состояния pending / error / success',
     to: 'subscribe',
+  },
+  {
+    code: 'Lesson 05',
+    title: 'Работа с useRef в React',
+    summary: 'useRef вместо useState, замеры без перерисовок',
+    to: 'refExamples',
   },
 ]

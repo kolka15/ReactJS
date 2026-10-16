@@ -5,6 +5,7 @@ import { ROUTES, type RouteKey } from 'shared/config/routes.ts'
 
 import { HomePage } from '../pages/home/ui/HomePage'
 import { NotFoundPage } from '../pages/not-found/ui/NotFoundPage'
+import { RefExamplesPage } from '../pages/ref-examples/ui/RefExamplesPage'
 import { RegisterPage } from '../pages/register/ui/RegisterPage'
 import { SubscribePage } from '../pages/subscribe/ui/SubscribePage'
 import { TaskPage } from '../pages/tasks/ui/TaskPage'
@@ -14,6 +15,7 @@ const PAGES: Record<RouteKey, ReactElement> = {
   tasks: <TaskPage />,
   register: <RegisterPage />,
   subscribe: <SubscribePage />,
+  refExamples: <RefExamplesPage />,
 }
 
 export const AppRouter = () => (
