@@ -1,0 +1,22 @@
+lesson-6.md
+  h_0d409f2aa20f9a 1-19
+src/app/App.tsx
+  h_0d409f2aa20f9a 3-4,11-13
+src/features/authRouting/AuthContext.tsx
+  h_0d409f2aa20f9a 1-42
+src/features/authRouting/ProtectedRoute.tsx
+  h_0d409f2aa20f9a 1-11
+src/features/authRouting/useAuth.ts
+  h_0d409f2aa20f9a 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "74c49082a4029ff08ae5da55f3eafc15d17347f6",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
