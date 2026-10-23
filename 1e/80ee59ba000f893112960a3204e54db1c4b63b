@@ -1,0 +1,22 @@
+.github/workflows/deploy.yml
+  h_0d409f2aa20f9a 1-30
+index.html
+  h_0d409f2aa20f9a 8-24
+public/404.html
+  h_0d409f2aa20f9a 1-32
+src/app/router.tsx
+  h_0d409f2aa20f9a 29
+vite.config.ts
+  h_0d409f2aa20f9a 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "1e80ee59ba000f893112960a3204e54db1c4b63b",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
