@@ -1,0 +1,48 @@
+lesson-6.md
+  h_0d409f2aa20f9a 20-25
+src/app/App.tsx
+  h_0d409f2aa20f9a 3
+src/app/router.tsx
+  h_0d409f2aa20f9a 4,8,10-11,14,24,36-41
+src/app/store.ts
+  h_0d409f2aa20f9a 4,9,11-12
+src/features/authRouting/api/authApi.ts
+  h_0d409f2aa20f9a 1-77
+src/features/authRouting/model/AuthContext.tsx
+  h_0d409f2aa20f9a 6
+src/features/authRouting/model/loginSchema.ts
+  h_0d409f2aa20f9a 1-16
+src/features/authRouting/model/signUpSchema.ts
+  h_0d409f2aa20f9a 1-34
+src/features/authRouting/ui/AuthForm.module.css
+  h_0d409f2aa20f9a 1-62
+src/features/authRouting/ui/LoginForm.tsx
+  h_0d409f2aa20f9a 1-101
+src/features/authRouting/ui/ProtectedRoute.tsx
+  h_0d409f2aa20f9a 5
+src/features/authRouting/ui/SignUpForm.tsx
+  h_0d409f2aa20f9a 1-220
+src/pages/login/ui/LoginPage.tsx
+  h_0d409f2aa20f9a 1-14
+src/pages/profile/ui/ProfilePage.tsx
+  h_0d409f2aa20f9a 1-13
+src/pages/public/ui/PublicPage.tsx
+  h_0d409f2aa20f9a 3,24-25
+src/pages/sign-up/ui/SignUpPage.tsx
+  h_0d409f2aa20f9a 1-14
+src/shared/api/courseApi.ts
+  h_0d409f2aa20f9a 1-9
+src/shared/config/routes.ts
+  h_0d409f2aa20f9a 9-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "d1b34e2601b9b3f9d68460ac2a59c1822a49fc8f",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
