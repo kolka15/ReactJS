@@ -1,0 +1,62 @@
+src/features/authRouting/model/AuthContext.tsx
+  h_0d409f2aa20f9a 1-42
+src/pages/public/ui/PublicPage.module.css
+  h_0d409f2aa20f9a 1-24
+src/entities/user/api/userApi.ts
+  h_0d409f2aa20f9a 1-14
+src/features/authRouting/api/authApi.ts
+  h_0d409f2aa20f9a 1-75
+src/features/authRouting/model/useAuth.ts
+  h_0d409f2aa20f9a 1-13
+src/pages/profile/ui/ProfilePage.tsx
+  h_0d409f2aa20f9a 1-23
+src/shared/api/courseApi.ts
+  h_0d409f2aa20f9a 1-23
+src/features/authRouting/ui/SignOutButton.module.css
+  h_0d409f2aa20f9a 1-9
+src/pages/login/ui/LoginPage.tsx
+  h_0d409f2aa20f9a 1-17
+src/features/authRouting/ui/AuthForm.module.css
+  h_0d409f2aa20f9a 1-55
+src/pages/sign-up/ui/SignUpPage.tsx
+  h_0d409f2aa20f9a 1-17
+src/app/router.tsx
+  h_0d409f2aa20f9a 4,8,10-11,14,18,24-26,31,35-42
+src/entities/user/model/types.ts
+  h_0d409f2aa20f9a 1-9
+src/features/authRouting/ui/SignOutButton.tsx
+  h_0d409f2aa20f9a 1-23
+src/shared/api/authToken.ts
+  h_0d409f2aa20f9a 1
+src/app/App.tsx
+  h_0d409f2aa20f9a 3-4,11-13
+lesson-6.md
+  h_0d409f2aa20f9a 1-38
+src/features/authRouting/model/loginSchema.ts
+  h_0d409f2aa20f9a 1-16
+src/shared/config/routes.ts
+  h_0d409f2aa20f9a 7-10,59-64
+src/features/authRouting/ui/SignUpForm.tsx
+  h_0d409f2aa20f9a 1-123
+src/features/authRouting/ui/LoginForm.tsx
+  h_0d409f2aa20f9a 1-101
+src/app/store.ts
+  h_0d409f2aa20f9a 4,9,11-12
+src/features/authRouting/model/signUpSchema.ts
+  h_0d409f2aa20f9a 1-26
+src/features/authRouting/ui/ProtectedRoute.tsx
+  h_0d409f2aa20f9a 1-13
+src/pages/public/ui/PublicPage.tsx
+  h_0d409f2aa20f9a 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "4f2fb3eaa718c03ed4c139631209630cc5c60a98",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
