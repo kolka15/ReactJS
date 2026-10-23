@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/ReactJS/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lesson</title>
+    <script>
+      (function (l, h) {
+        var params = new URLSearchParams(l.search);
+        var path = params.get('p');
+        if (!path) return;
+        var query = params.get('q');
+        var base = h.pathname.replace(/\/(index\.html)?$/, '');
+        var restore = function (value) {
+          return value ? value.replace(/~and~/g, '&') : '';
+        };
+        h.replaceState(
+          null,
+          '',
+          base + restore(path) + (query ? '?' + restore(query) : '') + l.hash,
+        );
+      })(window.location, window.history);
+    </script>
+    <script type="module" crossorigin src="/ReactJS/assets/index-CGqzqlj1.js"></script>
+    <link rel="stylesheet" crossorigin href="/ReactJS/assets/index-CwfcJ-_K.css">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

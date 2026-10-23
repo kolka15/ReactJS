@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages отдаёт этот файл для любого несуществующего пути, поэтому deep-link
+      // (/ReactJS/tasks) теряется. Перенаправляем на точку входа SPA, сохраняя путь в ?p=.
+      // Число ведущих сегментов пути, которые относятся к базе репозитория (/ReactJS/).
+      (function (l) {
+        var BASE_SEGMENTS = 1;
+        l.replace(
+          l.protocol +
+            '//' +
+            l.hostname +
+            (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + BASE_SEGMENTS).join('/') +
+            '/?p=/' +
+            l.pathname
+              .slice(1)
+              .split('/')
+              .slice(BASE_SEGMENTS)
+              .join('/')
+              .replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash,
+        );
+      })(window.location);
+    </script>
+  </head>
+  <body></body>
+</html>
