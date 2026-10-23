@@ -1,0 +1,20 @@
+src/pages/login/ui/LoginPage.tsx
+  h_0d409f2aa20f9a 8-10
+src/pages/profile/ui/ProfilePage.tsx
+  h_0d409f2aa20f9a 1-2,4,11-13
+src/pages/public/ui/PublicPage.tsx
+  h_0d409f2aa20f9a 15-17
+src/pages/sign-up/ui/SignUpPage.tsx
+  h_0d409f2aa20f9a 8-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.2",
+  "base_commit_sha": "eebdef8d0d76190caa622449260436250a1c0c46",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
