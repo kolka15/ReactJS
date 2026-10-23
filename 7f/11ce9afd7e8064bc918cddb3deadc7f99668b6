@@ -1,0 +1,20 @@
+index.html
+  h_0d409f2aa20f9a 5,8-24,25-26
+404.html
+  h_0d409f2aa20f9a 1-32
+assets/index-CGqzqlj1.js
+  h_0d409f2aa20f9a 1-65
+assets/index-CwfcJ-_K.css
+  h_0d409f2aa20f9a 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "7f11ce9afd7e8064bc918cddb3deadc7f99668b6",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
