@@ -1,0 +1,20 @@
+build-hw/configs/esbuild.app.config.ts
+  h_0d409f2aa20f9a 2,6-9,16-18,20-32
+build-hw/configs/esbuild.lib.config.ts
+  h_0d409f2aa20f9a 7,11-13,15-18
+lesson-7.md
+  h_0d409f2aa20f9a 26-31
+package.json
+  h_0d409f2aa20f9a 11-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "95c68fb0c3fb292b38b92e20f1926bc6ea1965f4",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
