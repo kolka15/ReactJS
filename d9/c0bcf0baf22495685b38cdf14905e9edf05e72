@@ -1,0 +1,28 @@
+lesson-7.md
+  h_0d409f2aa20f9a 11-13,34-39
+build-hw/app/pages/home.tsx
+  h_0d409f2aa20f9a 1-19
+package.json
+  h_0d409f2aa20f9a 14-15,29
+package-lock.json
+  h_0d409f2aa20f9a 22,1228-1489
+build-hw/app/index.tsx
+  h_0d409f2aa20f9a 2-3,13,15,17-23
+build-hw/configs/swc.lib.config.ts
+  h_0d409f2aa20f9a 1-29
+build-hw/app/routes.ts
+  h_0d409f2aa20f9a 1-8
+build-hw/app/pages/about.tsx
+  h_0d409f2aa20f9a 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "d9c0bcf0baf22495685b38cdf14905e9edf05e72",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
