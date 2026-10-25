@@ -11,7 +11,8 @@
     "dev:app": "node build-hw/configs/esbuild.app.config.ts --mode=dev",
     "build:app": "node build-hw/configs/esbuild.app.config.ts --mode=prod",
     "build:lib": "node build-hw/configs/esbuild.lib.config.ts",
-    "build:all": "npm run build:app && npm run build:lib"
+    "build:lib:swc": "node build-hw/configs/swc.lib.config.ts",
+    "build:all": "npm run build:app && npm run build:lib && npm run build:lib:swc"
   },
   "dependencies": {
     "@hookform/resolvers": "5.9.1",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
+    "@swc/core": "1.16.20",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
