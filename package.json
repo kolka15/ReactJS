@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:app": "node build-hw/configs/esbuild.app.config.ts",
+    "build:lib": "node build-hw/configs/esbuild.lib.config.ts",
+    "build:all": "npm run build:app && npm run build:lib"
   },
   "dependencies": {
     "@hookform/resolvers": "5.9.1",
@@ -25,6 +28,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "esbuild": "0.28.2",
     "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-boundaries": "7.2.0",
