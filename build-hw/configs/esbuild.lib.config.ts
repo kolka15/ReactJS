@@ -4,19 +4,15 @@ import { build } from 'esbuild'
 const here = (path: string) => fileURLToPath(new URL(path, import.meta.url))
 const entryPoints = ['index', 'math', 'string'].map((name) => here(`../lib/${name}.ts`))
 
-await build({
+const shared = {
   entryPoints,
   bundle: true,
   external: ['react'],
-  format: 'esm',
-  outdir: here('../dist/lib/esm/'),
-})
+  minify: true,
+  sourcemap: true,
+}
 
-await build({
-  entryPoints,
-  bundle: true,
-  external: ['react'],
-  format: 'cjs',
-  outExtension: { '.js': '.cjs' },
-  outdir: here('../dist/lib/cjs/'),
-})
+await Promise.all([
+  build({ ...shared, format: 'esm', outdir: here('../dist/lib/esm/') }),
+  build({ ...shared, format: 'cjs', outExtension: { '.js': '.cjs' }, outdir: here('../dist/lib/cjs/') }),
+])

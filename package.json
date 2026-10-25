@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:app": "node build-hw/configs/esbuild.app.config.ts",
+    "dev:app": "node build-hw/configs/esbuild.app.config.ts --mode=dev",
+    "build:app": "node build-hw/configs/esbuild.app.config.ts --mode=prod",
     "build:lib": "node build-hw/configs/esbuild.lib.config.ts",
     "build:all": "npm run build:app && npm run build:lib"
   },
