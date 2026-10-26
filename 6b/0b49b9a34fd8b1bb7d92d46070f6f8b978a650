@@ -1,0 +1,30 @@
+index.html
+  h_0d409f2aa20f9a 11
+lesson-8.md
+  h_0d409f2aa20f9a 1-40
+src/pages/portal-examples/ui/PortalExamplesPage.module.css
+  h_0d409f2aa20f9a 1-4
+src/pages/portal-examples/ui/PortalExamplesPage.tsx
+  h_0d409f2aa20f9a 4-7,16-32
+src/shared/ui/Tooltip/Tooltip.module.css
+  h_0d409f2aa20f9a 1-33
+src/shared/ui/Tooltip/Tooltip.tsx
+  h_0d409f2aa20f9a 1-23
+src/shared/ui/Tooltip/TooltipContent.tsx
+  h_0d409f2aa20f9a 1-32
+src/shared/ui/Tooltip/TooltipPosition.ts
+  h_0d409f2aa20f9a 1-6
+src/shared/ui/Tooltip/useTooltip.ts
+  h_0d409f2aa20f9a 1-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "6b0b49b9a34fd8b1bb7d92d46070f6f8b978a650",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
