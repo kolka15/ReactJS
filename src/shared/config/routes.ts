@@ -8,6 +8,7 @@ export const ROUTES = {
   login: '/login',
   signUp: '/sign-up',
   profile: '/profile',
+  portalExamples: '/portal-examples',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -61,5 +62,11 @@ export const LESSON_LINKS: LessonLink[] = [
     title: 'Работа с защищёнными маршрутами',
     summary: 'Outlet, AuthContext, useAuth, PublicPage и ProtectedRoute',
     to: 'public',
+  },
+  {
+    code: 'Lesson 08',
+    title: 'React.Portal',
+    summary: 'createPortal и рендер вне #root',
+    to: 'portalExamples',
   },
 ]
