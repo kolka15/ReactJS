@@ -1,0 +1,33 @@
+.trigger {
+  display: inline-block;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 1000;
+  max-width: 240px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #1c1917;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+  pointer-events: none;
+}
+
+.top {
+  transform: translate(-50%, -100%);
+}
+
+.bottom {
+  transform: translate(-50%, 0);
+}
+
+.left {
+  transform: translate(-100%, -50%);
+}
+
+.right {
+  transform: translate(0, -50%);
+}
