@@ -1,0 +1,18 @@
+src/app/router.tsx
+  h_0d409f2aa20f9a 10,25
+src/pages/portal-examples/ui/PortalExamplesPage.tsx
+  h_0d409f2aa20f9a 1-13
+src/shared/config/routes.ts
+  h_0d409f2aa20f9a 11,66-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "8f35f813d663949177f59db355f875da6b8edf03",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
