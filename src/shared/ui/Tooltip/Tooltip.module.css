@@ -16,6 +16,12 @@
   pointer-events: none;
 }
 
+.tooltip[data-theme='dark'] {
+  background: #fafaf9;
+  color: #1c1917;
+  box-shadow: 0 4px 16px rgba(28, 25, 23, 0.24);
+}
+
 .top {
   transform: translate(-50%, -100%);
 }

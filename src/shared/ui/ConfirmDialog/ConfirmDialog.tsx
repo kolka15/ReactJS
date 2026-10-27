@@ -1,5 +1,7 @@
 import { createPortal } from 'react-dom'
 
+import { useTheme } from '../theme/useTheme.ts'
+
 import styles from './ConfirmDialog.module.css'
 
 export interface ConfirmDialogOptions {
@@ -19,6 +21,8 @@ const getDialogRoot = (): HTMLElement =>
   document.getElementById(CONFIRM_DIALOG_ROOT_ID) ?? document.body
 
 export const ConfirmDialog = ({ options, onConfirm, onCancel }: ConfirmDialogProps) => {
+  const { theme } = useTheme()
+
   if (options === null) {
     return null
   }
@@ -33,7 +37,13 @@ export const ConfirmDialog = ({ options, onConfirm, onCancel }: ConfirmDialogPro
         }
       }}
     >
-      <div className={styles.dialog} role="dialog" aria-modal="true" aria-label={options.title}>
+      <div
+        className={styles.dialog}
+        role="dialog"
+        aria-modal="true"
+        aria-label={options.title}
+        data-theme={theme}
+      >
         <h2 className={styles.title}>{options.title}</h2>
         {options.description && <p className={styles.description}>{options.description}</p>}
         <div className={styles.actions}>

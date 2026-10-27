@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import { ConfirmDialogDemo } from 'features/portalExamples/ConfirmDialogDemo.tsx'
+import { PortalShowcase } from 'features/portalExamples/PortalShowcase.tsx'
 import { TooltipEventsDemo } from 'features/portalExamples/TooltipEventsDemo.tsx'
 import { TooltipStyleIsolationDemo } from 'features/portalExamples/TooltipStyleIsolationDemo.tsx'
 import { ROUTES } from 'shared/config/routes.ts'
@@ -39,5 +40,7 @@ export const PortalExamplesPage = () => (
     <TooltipStyleIsolationDemo />
 
     <ConfirmDialogDemo />
+
+    <PortalShowcase />
   </main>
 )

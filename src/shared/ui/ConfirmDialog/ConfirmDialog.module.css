@@ -57,3 +57,22 @@
   background: #dc2626;
   color: #fff;
 }
+
+.dialog[data-theme='dark'] {
+  background: #292524;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+.dialog[data-theme='dark'] .title {
+  color: #fafaf9;
+}
+
+.dialog[data-theme='dark'] .description {
+  color: #d6d3d1;
+}
+
+.dialog[data-theme='dark'] .cancel {
+  border-color: #57534e;
+  background: #292524;
+  color: #e7e5e4;
+}
