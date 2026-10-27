@@ -1,0 +1,30 @@
+src/features/portalExamples/PortalShowcase.module.css
+  h_0d409f2aa20f9a 1-26
+src/features/portalExamples/PortalShowcase.tsx
+  h_0d409f2aa20f9a 1-53
+src/pages/portal-examples/ui/PortalExamplesPage.tsx
+  h_0d409f2aa20f9a 4,43-44
+src/shared/ui/ConfirmDialog/ConfirmDialog.module.css
+  h_0d409f2aa20f9a 60-78
+src/shared/ui/ConfirmDialog/ConfirmDialog.tsx
+  h_0d409f2aa20f9a 3-4,24-25,40-46
+src/shared/ui/Tooltip/Tooltip.module.css
+  h_0d409f2aa20f9a 19-24
+src/shared/ui/Tooltip/TooltipContent.tsx
+  h_0d409f2aa20f9a 4-5,21-22,31
+src/shared/ui/theme/ThemeContext.tsx
+  h_0d409f2aa20f9a 1-25
+src/shared/ui/theme/useTheme.ts
+  h_0d409f2aa20f9a 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "3a0cfb4f71d34d9bcb9a6b155fa00015cfcc766c",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
