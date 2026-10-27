@@ -1,0 +1,14 @@
+src/shared/ui/ConfirmDialog/useConfirmDialog.ts
+  h_0d409f2aa20f9a 1,27-67,70-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "1c010067a121c5d8639e7cde06275d8e21d9f90a",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
