@@ -1,0 +1,26 @@
+index.html
+  h_0d409f2aa20f9a 12
+src/features/portalExamples/ConfirmDialogDemo.module.css
+  h_0d409f2aa20f9a 1-34
+src/features/portalExamples/ConfirmDialogDemo.tsx
+  h_0d409f2aa20f9a 1-42
+src/pages/portal-examples/ui/PortalExamplesPage.tsx
+  h_0d409f2aa20f9a 3,40-41
+src/shared/ui/ConfirmDialog/ConfirmDialog.module.css
+  h_0d409f2aa20f9a 1-59
+src/shared/ui/ConfirmDialog/ConfirmDialog.tsx
+  h_0d409f2aa20f9a 1-51
+src/shared/ui/ConfirmDialog/useConfirmDialog.ts
+  h_0d409f2aa20f9a 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "9bcc247aceb63e55695046743f50d4d68835333b",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
