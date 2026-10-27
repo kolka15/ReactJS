@@ -1,0 +1,43 @@
+.parent {
+  padding: 16px;
+  border: 2px dashed #a8a29e;
+  border-radius: 8px;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.parentHovered {
+  border-color: #b45309;
+  border-style: solid;
+  background: #fff7ed;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.status {
+  margin: 12px 0 0;
+  font-size: 13px;
+  color: #57534e;
+}
+
+.log {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: #44403c;
+}
+
+.log li {
+  padding: 2px 0;
+}
+
+.note {
+  font-size: 14px;
+  color: #57534e;
+}

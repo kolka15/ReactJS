@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 
+import { ConfirmDialogDemo } from 'features/portalExamples/ConfirmDialogDemo.tsx'
+import { TooltipEventsDemo } from 'features/portalExamples/TooltipEventsDemo.tsx'
+import { TooltipStyleIsolationDemo } from 'features/portalExamples/TooltipStyleIsolationDemo.tsx'
 import { ROUTES } from 'shared/config/routes.ts'
 import { Tooltip } from 'shared/ui/Tooltip/Tooltip.tsx'
 import { TooltipPosition } from 'shared/ui/Tooltip/TooltipPosition.ts'
@@ -30,5 +33,11 @@ export const PortalExamplesPage = () => (
         </Tooltip>
       </div>
     </section>
+
+    <TooltipEventsDemo />
+
+    <TooltipStyleIsolationDemo />
+
+    <ConfirmDialogDemo />
   </main>
 )
