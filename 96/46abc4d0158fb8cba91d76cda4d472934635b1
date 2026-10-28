@@ -1,0 +1,36 @@
+lesson-8.md
+  h_0d409f2aa20f9a 1,3,11,13,15,17-21,23-25,27,29-31,33,35,37,39
+src/features/portalExamples/TooltipEventsDemo.module.css
+  h_0d409f2aa20f9a 1-43
+src/features/portalExamples/TooltipEventsDemo.tsx
+  h_0d409f2aa20f9a 1-108
+src/features/portalExamples/TooltipStyleIsolationDemo.module.css
+  h_0d409f2aa20f9a 1-45
+src/features/portalExamples/TooltipStyleIsolationDemo.tsx
+  h_0d409f2aa20f9a 1-26
+src/pages/portal-examples/ui/PortalExamplesPage.tsx
+  h_0d409f2aa20f9a 3,4-5,36-39,40-41
+index.html
+  h_0d409f2aa20f9a 12
+src/features/portalExamples/ConfirmDialogDemo.module.css
+  h_0d409f2aa20f9a 1-34
+src/features/portalExamples/ConfirmDialogDemo.tsx
+  h_0d409f2aa20f9a 1-42
+src/shared/ui/ConfirmDialog/ConfirmDialog.module.css
+  h_0d409f2aa20f9a 1-59
+src/shared/ui/ConfirmDialog/ConfirmDialog.tsx
+  h_0d409f2aa20f9a 1-51
+src/shared/ui/ConfirmDialog/useConfirmDialog.ts
+  h_0d409f2aa20f9a 1,2-26,27-67,68-69,70-71,72-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "9646abc4d0158fb8cba91d76cda4d472934635b1",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
