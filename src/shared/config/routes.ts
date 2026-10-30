@@ -4,6 +4,10 @@ export const ROUTES = {
   register: '/register',
   subscribe: '/subscribe',
   refExamples: '/ref-examples',
+  public: '/public',
+  login: '/login',
+  signUp: '/sign-up',
+  profile: '/profile',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -51,5 +55,11 @@ export const LESSON_LINKS: LessonLink[] = [
     title: 'Работа с useRef в React',
     summary: 'useRef вместо useState, замеры без перерисовок',
     to: 'refExamples',
+  },
+  {
+    code: 'Lesson 06',
+    title: 'Работа с защищёнными маршрутами',
+    summary: 'Outlet, AuthContext, useAuth, PublicPage и ProtectedRoute',
+    to: 'public',
   },
 ]
