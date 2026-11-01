@@ -1,0 +1,27 @@
+src/pages/react19-examples/ui/React19ExamplesPage.tsx
+  s_4c39165fb2f4c9::t_de1238d9d6a5cb 1-14
+src/features/react19Examples/FormWithAsyncSave.tsx
+  s_4c39165fb2f4c9::t_993752b25671db 1-62
+src/shared/config/routes.ts
+  s_4c39165fb2f4c9::t_bbcbbc9b11fc4f 12
+  s_4c39165fb2f4c9::t_6f43639612d870 73-78
+src/app/router.tsx
+  s_4c39165fb2f4c9::t_04a3ba40f19e30 27
+  s_4c39165fb2f4c9::t_17060cc8860cc2 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "65ec3c52ae5eb036fbce15d2a7e0abcd4629dc43",
+  "prompts": {},
+  "sessions": {
+    "s_4c39165fb2f4c9": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "6e51e2ad-d0ad-4df2-943c-58db4b8cc0c3",
+        "model": "Qwen3.8-Flash-Next"
+      },
+      "human_author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
