@@ -7,6 +7,7 @@ import { ROUTES, type RouteKey } from 'shared/config/routes.ts'
 import { HomePage } from '../pages/home/ui/HomePage'
 import { LoginPage } from '../pages/login/ui/LoginPage'
 import { NotFoundPage } from '../pages/not-found/ui/NotFoundPage'
+import { PortalExamplesPage } from '../pages/portal-examples/ui/PortalExamplesPage'
 import { ProfilePage } from '../pages/profile/ui/ProfilePage'
 import { PublicPage } from '../pages/public/ui/PublicPage'
 import { RefExamplesPage } from '../pages/ref-examples/ui/RefExamplesPage'
@@ -21,6 +22,7 @@ const PAGES = {
   register: <RegisterPage />,
   subscribe: <SubscribePage />,
   refExamples: <RefExamplesPage />,
+  portalExamples: <PortalExamplesPage />,
 } satisfies Record<Exclude<RouteKey, 'public' | 'login' | 'signUp' | 'profile'>, ReactElement>
 
 type PageKey = keyof typeof PAGES
