@@ -1,0 +1,20 @@
+lesson-9.md
+  s_3f24e23646e81d::t_397f703e35401a 22-27
+  s_3f24e23646e81d::t_238ad2d0277300 28-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "cb93588f47895ef7a2bca50eb061911ca513b1ab",
+  "prompts": {},
+  "sessions": {
+    "s_3f24e23646e81d": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "df86bd27-18b5-4a86-8292-8594932be246",
+        "model": "Qwen3.8-Flash-Next"
+      },
+      "human_author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
