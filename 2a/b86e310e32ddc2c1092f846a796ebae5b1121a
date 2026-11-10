@@ -1,0 +1,310 @@
+.env
+  h_0d409f2aa20f9a 1
+.eslintignore
+  h_0d409f2aa20f9a 1-9
+.eslintrc.js
+  h_0d409f2aa20f9a 1-36
+.gitignore
+  h_0d409f2aa20f9a 2,4
+.prettierignore
+  h_0d409f2aa20f9a 1-4
+.prettierrc.js
+  h_0d409f2aa20f9a 1-11
+.stylelintignore
+  h_0d409f2aa20f9a 1-5
+.stylelintrc.json
+  h_0d409f2aa20f9a 1-327
+README.md
+  h_0d409f2aa20f9a 1,3,5,7,9-15,17,19,21,23-60,63,65-72,74,76-81,83-91,95-163,166,169-175,178-416,418-420,422,424,426,428-443
+package-lock.json
+  h_0d409f2aa20f9a 2-16438
+package.json
+  h_0d409f2aa20f9a 2-91
+postcss.config.js
+  h_0d409f2aa20f9a 1-6
+public/index.html
+  h_0d409f2aa20f9a 1,3-11,13-15
+src/1-app/App.tsx
+  h_0d409f2aa20f9a 1-26
+src/1-app/app.module.css
+  h_0d409f2aa20f9a 1-2,5-7,10-12
+src/1-app/index.ts
+  h_0d409f2aa20f9a 1
+src/1-app/styles/normalize.css
+  h_0d409f2aa20f9a 1-2,4-7,9-366,368-369,372-374,376-377
+src/1-app/styles/styles.css
+  h_0d409f2aa20f9a 1-4,7-9,12-14,17-19,22-23,26-31,34-37,40-41,44-45,48-49,52-53,56-62,65-70,73-75,78-88
+src/3-pages/CartPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/CartPage/ui/CartAmount/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/CartPage/ui/CartAmount/ui/CartAmount.tsx
+  h_0d409f2aa20f9a 1-63
+src/3-pages/CartPage/ui/CartItem/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/CartPage/ui/CartItem/ui/CartItem.tsx
+  h_0d409f2aa20f9a 1-59
+src/3-pages/CartPage/ui/CartList/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/CartPage/ui/CartList/ui/CartList.tsx
+  h_0d409f2aa20f9a 1-16
+src/3-pages/CartPage/ui/CartPage.module.css
+  h_0d409f2aa20f9a 1-287
+src/3-pages/CartPage/ui/CartPage.tsx
+  h_0d409f2aa20f9a 1-26
+src/3-pages/FavoritesPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/FavoritesPage/ui/FavoritesPage.tsx
+  h_0d409f2aa20f9a 1-25
+src/3-pages/HomePage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/HomePage/ui/HomePage.tsx
+  h_0d409f2aa20f9a 1-24
+src/3-pages/NotFoundPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/NotFoundPage/ui/NotFoudPage.module.css
+  h_0d409f2aa20f9a 1-7
+src/3-pages/NotFoundPage/ui/NotFoundPage.tsx
+  h_0d409f2aa20f9a 1-13
+src/3-pages/ProductPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/ProductPage/ui/ProductPage.module.css
+  h_0d409f2aa20f9a 1-450
+src/3-pages/ProductPage/ui/ProductPage.tsx
+  h_0d409f2aa20f9a 1-15,17-20,22,24,26-28,30,32,34-54,56-60,62-131
+src/3-pages/ProfilePage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/ProfilePage/ui/ProfilePage.module.css
+  h_0d409f2aa20f9a 1-13,16-18,21-24,27-32,35-41,44-49,52-53,56-59,62-65,68-69,72-89,91,94-96,99-101,104-105
+src/3-pages/ProfilePage/ui/ProfilePage.tsx
+  h_0d409f2aa20f9a 1-93
+src/3-pages/SignInPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/SignInPage/ui/SignInPage.tsx
+  h_0d409f2aa20f9a 1-6
+src/3-pages/SignUpPage/index.ts
+  h_0d409f2aa20f9a 1
+src/3-pages/SignUpPage/ui/SignUpPage.tsx
+  h_0d409f2aa20f9a 1-6
+src/4-widgets/CardList/index.ts
+  h_0d409f2aa20f9a 1
+src/4-widgets/CardList/ui/CardList.module.css
+  h_0d409f2aa20f9a 1-2,5-10,13-16,19-23,26-29,32-35
+src/4-widgets/CardList/ui/CardList.tsx
+  h_0d409f2aa20f9a 1-2,4-11,13-25
+src/4-widgets/Footer/index.ts
+  h_0d409f2aa20f9a 1
+src/4-widgets/Footer/ui/Footer.module.css
+  h_0d409f2aa20f9a 1-149
+src/4-widgets/Footer/ui/Footer.tsx
+  h_0d409f2aa20f9a 1-99
+src/4-widgets/Header/index.ts
+  h_0d409f2aa20f9a 1
+src/4-widgets/Header/ui/Header.module.css
+  h_0d409f2aa20f9a 1-87
+src/4-widgets/Header/ui/Header.tsx
+  h_0d409f2aa20f9a 1-83
+src/4-widgets/ReviewList/ui/ReviewForm/ReviewForm.module.css
+  h_0d409f2aa20f9a 1-2,5-6,9-12,15-18,21-22,25-37,40-42,45-48,51-67,70-72,75-77,80-81
+src/4-widgets/ReviewList/ui/ReviewForm/ReviewForm.tsx
+  h_0d409f2aa20f9a 1-36
+src/4-widgets/ReviewList/ui/ReviewList.module.css
+  h_0d409f2aa20f9a 1-124
+src/4-widgets/ReviewList/ui/ReviewList.tsx
+  h_0d409f2aa20f9a 1-29
+src/4-widgets/SignInForm/index.ts
+  h_0d409f2aa20f9a 1
+src/4-widgets/SignInForm/ui/SignInForm.tsx
+  h_0d409f2aa20f9a 1-159
+src/4-widgets/SignInForm/utils/types.ts
+  h_0d409f2aa20f9a 1-4
+src/4-widgets/SignInForm/utils/validator.ts
+  h_0d409f2aa20f9a 1-6
+src/4-widgets/SignUpForm/index.ts
+  h_0d409f2aa20f9a 1
+src/4-widgets/SignUpForm/ui/SignUpForm.tsx
+  h_0d409f2aa20f9a 1-153
+src/4-widgets/SignUpForm/utils/types.ts
+  h_0d409f2aa20f9a 1-3
+src/4-widgets/SignUpForm/utils/validator.ts
+  h_0d409f2aa20f9a 1-6
+src/7-shared/api/ApiServise.ts
+  h_0d409f2aa20f9a 1-100
+src/7-shared/api/hooks/useActionCreated.ts
+  h_0d409f2aa20f9a 1-30
+src/7-shared/assets/icons/back.svg
+  h_0d409f2aa20f9a 1-13
+src/7-shared/assets/icons/like.svg
+  h_0d409f2aa20f9a 1-17
+src/7-shared/assets/icons/quality.svg
+  h_0d409f2aa20f9a 1-5
+src/7-shared/assets/icons/star.svg
+  h_0d409f2aa20f9a 1-11
+src/7-shared/assets/icons/trash.svg
+  h_0d409f2aa20f9a 1-12
+src/7-shared/assets/icons/truck.svg
+  h_0d409f2aa20f9a 1-4
+src/7-shared/assets/images/instagram.svg
+  h_0d409f2aa20f9a 1-5
+src/7-shared/assets/images/telegram.svg
+  h_0d409f2aa20f9a 1-3
+src/7-shared/assets/images/viber.svg
+  h_0d409f2aa20f9a 1-7
+src/7-shared/assets/images/vk.svg
+  h_0d409f2aa20f9a 1-4
+src/7-shared/assets/images/whatsapp.svg
+  h_0d409f2aa20f9a 1-3
+src/7-shared/hooks/useAddToCart.ts
+  h_0d409f2aa20f9a 1-11
+src/7-shared/hooks/useDebounce.ts
+  h_0d409f2aa20f9a 1,3-4,6-9,11-12,14-15
+src/7-shared/hooks/usePagination.ts
+  h_0d409f2aa20f9a 1-35
+src/7-shared/providers/router/config/router.tsx
+  h_0d409f2aa20f9a 1,3-11,13-21,24-76
+src/7-shared/providers/router/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/store/HOCs/WithProtection.tsx
+  h_0d409f2aa20f9a 1-39
+src/7-shared/store/HOCs/WithQuery.tsx
+  h_0d409f2aa20f9a 1-59
+src/7-shared/store/api/authApi.ts
+  h_0d409f2aa20f9a 1-3,5-8,10-13,15-36
+src/7-shared/store/api/config.ts
+  h_0d409f2aa20f9a 1-14
+src/7-shared/store/api/productsApi.ts
+  h_0d409f2aa20f9a 1-112
+src/7-shared/store/hooks/useProducts.ts
+  h_0d409f2aa20f9a 1-41
+src/7-shared/store/reducers/rootReducer.ts
+  h_0d409f2aa20f9a 1-14
+src/7-shared/store/slices/cart.ts
+  h_0d409f2aa20f9a 1-37
+src/7-shared/store/slices/products.ts
+  h_0d409f2aa20f9a 1-45
+src/7-shared/store/slices/user.ts
+  h_0d409f2aa20f9a 1-34
+src/7-shared/store/store.ts
+  h_0d409f2aa20f9a 1-16
+src/7-shared/store/types.ts
+  h_0d409f2aa20f9a 1-4
+src/7-shared/store/utils.ts
+  h_0d409f2aa20f9a 1-5
+src/7-shared/types/global.d.ts
+  h_0d409f2aa20f9a 1-121
+src/7-shared/ui/ButtonBack/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/ButtonBack/ui/ButtonBack.tsx
+  h_0d409f2aa20f9a 1-11
+src/7-shared/ui/Card/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Card/ui/Card.module.css
+  h_0d409f2aa20f9a 1-144
+src/7-shared/ui/Card/ui/Card.tsx
+  h_0d409f2aa20f9a 1-70
+src/7-shared/ui/Card/ui/Price/ui/Price.module.css
+  h_0d409f2aa20f9a 1-6,9-13,16-24,27-28,31-32,35-36,39-46
+src/7-shared/ui/Card/ui/Price/ui/Price.tsx
+  h_0d409f2aa20f9a 1-2,4-7,9-20
+src/7-shared/ui/CartCounter/hooks/useCount.ts
+  h_0d409f2aa20f9a 1-36
+src/7-shared/ui/CartCounter/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/CartCounter/ui/CartCounter.module.css
+  h_0d409f2aa20f9a 1-7,10-19,22-30
+src/7-shared/ui/CartCounter/ui/CartCounter.tsx
+  h_0d409f2aa20f9a 1-35
+src/7-shared/ui/LikeButton/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/LikeButton/ui/LikeButton.module.css
+  h_0d409f2aa20f9a 1-6,9-10,13-14,17-22
+src/7-shared/ui/LikeButton/ui/LikeButton.tsx
+  h_0d409f2aa20f9a 1-52
+src/7-shared/ui/LoadMore/hooks/useLoadMore.ts
+  h_0d409f2aa20f9a 1-47
+src/7-shared/ui/LoadMore/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/LoadMore/ui/LoadMore.tsx
+  h_0d409f2aa20f9a 1-20
+src/7-shared/ui/Logo/assets/logo.svg
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Logo/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Logo/ui/Logo.module.css
+  h_0d409f2aa20f9a 1-3
+src/7-shared/ui/Logo/ui/Logo.tsx
+  h_0d409f2aa20f9a 1-11
+src/7-shared/ui/ProductCartCounter/hooks/useCount.ts
+  h_0d409f2aa20f9a 1-30
+src/7-shared/ui/ProductCartCounter/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/ProductCartCounter/ui/ProductCartCounter.module.css
+  h_0d409f2aa20f9a 1-450
+src/7-shared/ui/ProductCartCounter/ui/ProductCartCounter.tsx
+  h_0d409f2aa20f9a 1-36
+src/7-shared/ui/Rating/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Rating/ui/Rating.tsx
+  h_0d409f2aa20f9a 1-21
+src/7-shared/ui/Search/hooks/usePostsSearchForm.ts
+  h_0d409f2aa20f9a 1-41
+src/7-shared/ui/Search/ui/Search.module.css
+  h_0d409f2aa20f9a 1-5,8-17,20-22,25-26,29-37,40-41,44-45,48-59
+src/7-shared/ui/Search/ui/Search.tsx
+  h_0d409f2aa20f9a 1-41
+src/7-shared/ui/Sort/hooks/useSort.ts
+  h_0d409f2aa20f9a 1-44
+src/7-shared/ui/Sort/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Sort/ui/Sort.tsx
+  h_0d409f2aa20f9a 1-19
+src/7-shared/ui/Spinner/index.ts
+  h_0d409f2aa20f9a 1
+src/7-shared/ui/Spinner/ui/Spinner.module.css
+  h_0d409f2aa20f9a 1-6,9-15,18-29,32-35,38-41,43-45,48-51,53-55,58-62,64-86,88-90
+src/7-shared/ui/Spinner/ui/Spinner.tsx
+  h_0d409f2aa20f9a 1-2,4-15
+src/7-shared/utils/common.ts
+  h_0d409f2aa20f9a 1-20
+src/7-shared/utils/getMessageFromError.ts
+  h_0d409f2aa20f9a 1-11
+src/7-shared/utils/index.ts
+  h_0d409f2aa20f9a 1-2
+src/7-shared/utils/isLiked.ts
+  h_0d409f2aa20f9a 1-2
+src/custom.d.ts
+  h_0d409f2aa20f9a 1-7,9-11,13-15,17-19,22-24,27-29,32-34
+src/index.tsx
+  h_0d409f2aa20f9a 1-16
+tsconfig.json
+  h_0d409f2aa20f9a 2-24
+webpack/webpack.common.js
+  h_0d409f2aa20f9a 1-6,8,10-92
+webpack/webpack.config.js
+  h_0d409f2aa20f9a 1-9
+webpack/webpack.dev.js
+  h_0d409f2aa20f9a 1-16
+webpack/webpack.prod.js
+  h_0d409f2aa20f9a 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "2ab86e310e32ddc2c1092f846a796ebae5b1121a",
+  "prompts": {},
+  "humans": {
+    "h_0d409f2aa20f9a": {
+      "author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  },
+  "sessions": {
+    "s_4c39165fb2f4c9": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "6e51e2ad-d0ad-4df2-943c-58db4b8cc0c3",
+        "model": "Qwen3.8-Flash-Next"
+      },
+      "human_author": null
+    }
+  }
+}
