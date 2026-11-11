@@ -1,171 +1,171 @@
-src/5-features/cart/ui/ProductCartCounter/ui/ProductCartCounter.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-36
-src/5-features/products/ui/Sort/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-esbuild.config.js
-  s_751aab7b5b61b4::t_d0b2bb1b131255 103
-  s_751aab7b5b61b4::t_a64e685035a667 5
-src/5-features/auth/ui/SignInForm/ui/SignInForm.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-147
-src/5-features/products/ui/LikeButton/LikeButton.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-52
-src/5-features/cart/ui/ProductCartCounter/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/products/ui/ProductCard/ProductCard.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-144
-src/5-features/auth/ui/SignInForm/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/7-shared/ui/Price/Price.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-47
-tsconfig.json
-  s_751aab7b5b61b4::t_e7d42a8041c8e4 20-24
-  s_751aab7b5b61b4::t_f488d84336586b 18-19,25
-src/5-features/products/ui/LikeButton/LikeButton.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-23
-src/7-shared/api/customBaseQuery.ts
+src/1-app/store/rootReducer.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-14
-src/5-features/products/model/products.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-45
-src/7-shared/lib/common.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-20
-layers.js
-  s_751aab7b5b61b4::t_74e115c1849336 3-4
-  s_751aab7b5b61b4::t_d12600855df888 1-2,5-9
-src/5-features/search/ui/Search/ui/Search.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-60
-src/7-shared/store/hooks.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-5
-src/5-features/products/hooks/useSort.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
-src/5-features/cart/ui/CartCounter/ui/CartCounter.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-31
-src/5-features/auth/ui/SignUpForm/utils/types.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
-src/5-features/products/hooks/useLoadMore.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-44
-src/7-shared/lib/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
-src/7-shared/ui/WithQuery/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/products/model/productsApi.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-112
-src/5-features/cart/hooks/useAddToCart.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-11
-src/5-features/products/ui/ProductCard/ProductCard.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-63,70
-src/5-features/auth/ui/SignUpForm/utils/validator.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
-src/5-features/cart/hooks/useCartCount.ts
-  s_751aab7b5b61b4::t_30f603120c9486 3
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2,4-36
-src/7-shared/lib/getMessageFromError.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-11
-.eslintrc.js
-  s_751aab7b5b61b4::t_931dc10155c81d 12-17
-src/5-features/auth/ui/SignInForm/utils/validator.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
 src/5-features/cart/ui/CartList/ui/CartList.tsx
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-16
-src/5-features/cart/ui/CartCounter/ui/CartCounter.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-35
-src/5-features/products/hooks/useProducts.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
-src/7-shared/ui/Loader/index.ts
+src/7-shared/lib/common.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-20
+src/7-shared/ui/WithQuery/ui/WithQuery.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-55
+src/7-shared/ui/WithQuery/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/products/ui/Sort/ui/Sort.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-19
-webpack/webpack.common.js
-  s_751aab7b5b61b4::t_229408fa4fbb44 6,10
-  s_751aab7b5b61b4::t_0cbffd80aad3d8 76
 src/5-features/products/ui/ProductCard/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/7-shared/ui/Input/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
-src/5-features/products/ui/LikeButton/index.ts
+src/5-features/cart/ui/ProductCartCounter/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/7-shared/store/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
 src/5-features/cart/ui/CartItem/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/7-shared/lib/isLiked.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
-src/1-app/store/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
-src/7-shared/ui/Price/Price.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-20
-src/5-features/cart/ui/CartAmount/ui/CartAmount.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-63
-src/5-features/cart/ui/CartItem/ui/CartItem.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-105,108-109,112,114
-  s_751aab7b5b61b4::t_14faad100024bf 106-107,110-111,113,115-118
+src/5-features/products/ui/Sort/ui/Sort.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-19
+src/7-shared/store/hooks.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-5
 src/1-app/providers/router/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/search/hooks/useProductsSearchForm.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
+src/5-features/auth/ui/SignUpForm/utils/types.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
+src/5-features/cart/ui/CartCounter/ui/CartCounter.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-35
+src/5-features/auth/ui/SignInForm/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/7-shared/lib/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
 src/5-features/auth/model/types.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
-src/1-app/store/rootReducer.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-14
-src/5-features/cart/ui/CartAmount/ui/CartAmount.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-82,86-87,91
-  s_751aab7b5b61b4::t_4819073b07d51b 83-85,88-90
-src/5-features/search/ui/Search/ui/Search.tsx
+src/7-shared/lib/isLiked.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
+src/5-features/search/ui/Search/ui/Search.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-60
+src/5-features/products/hooks/useProducts.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
-src/5-features/products/ui/LoadMore/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/7-shared/ui/Button/ui/Button.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
-src/5-features/cart/ui/CartCounter/index.ts
+src/1-app/store/types.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
+src/7-shared/ui/Price/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
 src/7-shared/api/hooks/useActionCreated.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 7
-src/7-shared/store/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/auth/ui/SignUpForm/ui/SignUpForm.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-142
-src/5-features/auth/ui/SignInForm/utils/types.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
-src/7-shared/ui/WithQuery/ui/WithQuery.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-55
-src/1-app/store/types.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
-src/5-features/cart/model/cart.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-37
-src/5-features/cart/ui/CartAmount/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/7-shared/ui/Loader/ui/Loader.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-3
-src/5-features/cart/ui/ProductCartCounter/ui/ProductCartCounter.module.css
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-450
-src/5-features/auth/model/user.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-34
-src/1-app/store/store.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-16
-src/5-features/cart/ui/CartList/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+webpack/webpack.common.js
+  s_751aab7b5b61b4::t_0cbffd80aad3d8 76
+  s_751aab7b5b61b4::t_229408fa4fbb44 6,10
 src/5-features/cart/ui/CartItem/ui/CartItem.tsx
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-54,59
-src/5-features/auth/lib/WithProtection.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-39
-src/1-app/providers/router/config/router.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-76
-src/5-features/cart/hooks/useLocalCount.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-30
-src/5-features/auth/ui/SignUpForm/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
-src/5-features/products/ui/LoadMore/ui/LoadMore.tsx
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-19
 src/5-features/auth/model/authApi.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-36
-src/7-shared/ui/Button/index.ts
-  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
+.eslintrc.js
+  s_751aab7b5b61b4::t_931dc10155c81d 12-17
+src/5-features/cart/hooks/useCartCount.ts
+  s_751aab7b5b61b4::t_30f603120c9486 3
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2,4-36
+src/5-features/cart/hooks/useLocalCount.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-30
+src/5-features/products/model/products.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-45
+src/5-features/products/ui/ProductCard/ProductCard.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-144
+src/5-features/auth/ui/SignInForm/utils/validator.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
+src/5-features/cart/ui/CartAmount/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
 src/5-features/cart/ui/CartList/ui/CartList.module.css
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
-  s_751aab7b5b61b4::t_8dc3a88c8adb1a 5
-src/7-shared/ui/Price/index.ts
+  s_751aab7b5b61b4::t_1c4d58be622061 5
+src/5-features/auth/ui/SignUpForm/index.ts
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/5-features/products/ui/LoadMore/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/5-features/search/hooks/useProductsSearchForm.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
+src/7-shared/ui/Loader/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/7-shared/ui/Input/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
+src/1-app/store/store.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-16
+src/5-features/products/ui/LoadMore/ui/LoadMore.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-19
+src/7-shared/api/customBaseQuery.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-14
+src/5-features/cart/ui/ProductCartCounter/ui/ProductCartCounter.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-450
+src/7-shared/ui/Price/Price.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-20
+src/5-features/auth/ui/SignUpForm/utils/validator.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
+src/5-features/cart/model/cart.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-37
+src/5-features/auth/ui/SignInForm/ui/SignInForm.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-147
+src/5-features/products/hooks/useSort.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
+src/5-features/search/ui/Search/ui/Search.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-41
+src/7-shared/lib/getMessageFromError.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-11
+src/5-features/cart/ui/ProductCartCounter/ui/ProductCartCounter.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-36
 src/7-shared/ui/Input/ui/Input.tsx
   s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-8
+src/7-shared/ui/Price/Price.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-47
+src/5-features/auth/ui/SignInForm/utils/types.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-4
+src/7-shared/ui/Button/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
+src/5-features/auth/lib/WithProtection.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-39
+src/1-app/store/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-2
+src/5-features/cart/ui/CartList/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/5-features/products/ui/LikeButton/LikeButton.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-23
+tsconfig.json
+  s_751aab7b5b61b4::t_f488d84336586b 18-19,25
+  s_751aab7b5b61b4::t_e7d42a8041c8e4 20-24
+src/7-shared/ui/Button/ui/Button.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-6
+src/7-shared/ui/Loader/ui/Loader.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-3
+src/1-app/providers/router/config/router.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-76
+src/5-features/products/ui/LikeButton/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/5-features/products/ui/LikeButton/LikeButton.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-52
+src/5-features/products/ui/ProductCard/ProductCard.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-63,70
+src/5-features/products/hooks/useLoadMore.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-44
+src/5-features/products/model/productsApi.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-112
+layers.js
+  s_751aab7b5b61b4::t_74e115c1849336 3-4
+  s_751aab7b5b61b4::t_d12600855df888 1-2,5-9
+src/5-features/cart/ui/CartAmount/ui/CartAmount.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-82,86-87,91
+  s_751aab7b5b61b4::t_04ccd3c6bb7aaa 83-85,88-90
+esbuild.config.js
+  s_751aab7b5b61b4::t_a64e685035a667 5
+  s_751aab7b5b61b4::t_d0b2bb1b131255 103
+src/5-features/cart/ui/CartItem/ui/CartItem.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-105,108-109,112,114
+  s_751aab7b5b61b4::t_764d86bc7f5df1 106-107,110-111,113,115-118
+src/5-features/products/ui/Sort/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
+src/5-features/cart/ui/CartAmount/ui/CartAmount.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-63
+src/5-features/cart/ui/CartCounter/ui/CartCounter.module.css
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-31
+src/5-features/auth/model/user.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-34
+src/5-features/auth/ui/SignUpForm/ui/SignUpForm.tsx
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-142
+src/5-features/cart/hooks/useAddToCart.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1-11
+src/5-features/cart/ui/CartCounter/index.ts
+  s_751aab7b5b61b4::t_4c2ddc6a6e504a 1
 src/3-pages/CartPage/ui/CartPage.module.css
-  s_751aab7b5b61b4::t_6f751e25926f64 7,9-10,16,18,22-23
+  s_751aab7b5b61b4::t_c6875d866daf3e 7,9-10,16,18,22-23
 ---
 {
   "schema_version": "authorship/3.0.0",
