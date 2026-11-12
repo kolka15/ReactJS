@@ -1,0 +1,28 @@
+src/5-features/cart/ui/CartAmount/ui/CartAmount.tsx
+  s_782a10ac5cdcf0::t_72f69faf16da6a 14
+  s_d2194bd60f7967::t_fd660ae85f7b56 3,9-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "c1d70b92803ed8c4ea82c62693474033b38e111c",
+  "prompts": {},
+  "sessions": {
+    "s_782a10ac5cdcf0": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "af8a7387-2d37-48a8-9908-aaa3dff1d8e2",
+        "model": "Qwen3.8-Flash-Next"
+      },
+      "human_author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    },
+    "s_d2194bd60f7967": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "2a5a527a-1894-4eae-817d-665ab77db84d",
+        "model": "openai::Qwen3.8-Flash-Next"
+      },
+      "human_author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
