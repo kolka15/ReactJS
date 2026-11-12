@@ -1,0 +1,39 @@
+.trigger {
+  display: inline-block;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 1000;
+  max-width: 240px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #1c1917;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+  pointer-events: none;
+}
+
+.tooltip[data-theme='dark'] {
+  background: #fafaf9;
+  color: #1c1917;
+  box-shadow: 0 4px 16px rgba(28, 25, 23, 0.24);
+}
+
+.top {
+  transform: translate(-50%, -100%);
+}
+
+.bottom {
+  transform: translate(-50%, 0);
+}
+
+.left {
+  transform: translate(-100%, -50%);
+}
+
+.right {
+  transform: translate(0, -50%);
+}

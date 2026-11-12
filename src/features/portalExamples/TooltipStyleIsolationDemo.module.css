@@ -1,0 +1,45 @@
+/* «Враждебный» родитель: все эти свойства наследуются вниз по DOM-дереву. */
+.hostile {
+  padding: 18px 16px;
+  border: 2px solid #0f766e;
+  border-radius: 14px;
+  background: #ecfdf5;
+  color: #0f766e;
+  font-family: ui-monospace, 'Courier New', monospace;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  text-align: left;
+  text-indent: 28px;
+  text-transform: lowercase;
+  overflow: hidden;
+}
+
+.hostile div,
+.hostile span {
+  color: #b45309;
+}
+
+.row {
+  margin-top: 14px;
+}
+
+.tooltip {
+  margin: 14px 0 0;
+  padding: 6px 10px;
+  border: 1px dashed #0f766e;
+  border-radius: 8px;
+  background: #ccfbf1;
+  color: #134e4a;
+  font-size: 13px;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-transform: none;
+}
+
+.note {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #57534e;
+}
