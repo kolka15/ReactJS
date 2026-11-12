@@ -9,6 +9,7 @@ export const ROUTES = {
   signUp: '/sign-up',
   profile: '/profile',
   portalExamples: '/portal-examples',
+  react19Examples: '/react-19-examples',
 } as const
 
 export type RouteKey = keyof typeof ROUTES
@@ -68,5 +69,11 @@ export const LESSON_LINKS: LessonLink[] = [
     title: 'React.Portal',
     summary: 'createPortal и рендер вне #root',
     to: 'portalExamples',
+  },
+  {
+    code: 'Lesson 09',
+    title: 'Новый React 19',
+    summary: 'useActionState, useOptimistic',
+    to: 'react19Examples',
   },
 ]

@@ -10,6 +10,7 @@ import { NotFoundPage } from '../pages/not-found/ui/NotFoundPage'
 import { PortalExamplesPage } from '../pages/portal-examples/ui/PortalExamplesPage'
 import { ProfilePage } from '../pages/profile/ui/ProfilePage'
 import { PublicPage } from '../pages/public/ui/PublicPage'
+import { React19ExamplesPage } from '../pages/react19-examples/ui/React19ExamplesPage'
 import { RefExamplesPage } from '../pages/ref-examples/ui/RefExamplesPage'
 import { RegisterPage } from '../pages/register/ui/RegisterPage'
 import { SignUpPage } from '../pages/sign-up/ui/SignUpPage'
@@ -23,6 +24,7 @@ const PAGES = {
   subscribe: <SubscribePage />,
   refExamples: <RefExamplesPage />,
   portalExamples: <PortalExamplesPage />,
+  react19Examples: <React19ExamplesPage />,
 } satisfies Record<Exclude<RouteKey, 'public' | 'login' | 'signUp' | 'profile'>, ReactElement>
 
 type PageKey = keyof typeof PAGES
