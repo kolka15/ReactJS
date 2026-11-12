@@ -1,0 +1,21 @@
+src/1-app/styles/styles.css
+  s_782a10ac5cdcf0::t_8b905052cb109e 37
+src/1-app/App.tsx
+  s_782a10ac5cdcf0::t_868ae51205fc66 15-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5-gigacode.3",
+  "base_commit_sha": "cb95a2813987673efe44d84fe89abc6852a31750",
+  "prompts": {},
+  "sessions": {
+    "s_782a10ac5cdcf0": {
+      "agent_id": {
+        "tool": "gigacode_cli_agent",
+        "id": "af8a7387-2d37-48a8-9908-aaa3dff1d8e2",
+        "model": "Qwen3.8-Flash-Next"
+      },
+      "human_author": "Dmitriy Kozhushko <dvkozhushko@sberbank.ru>"
+    }
+  }
+}
